@@ -1,0 +1,30 @@
+<%- include('partials/header') %>
+
+<div class="container mt-5">
+  <h1 class="register" style="margin:20px;">Create pin</h1>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="login-card">
+        <main class="form-signin">
+
+          <form action="/em_createpin" method="POST">
+
+            <div class="form-floating">
+              <input type="number" name="empin" class="form-control" id="floatingInput" placeholder="Only numbers Eg: 123">
+              <label for="floatingInput">Enter your new pin</label>
+            </div>
+
+            <button class="btn btn-lg btn-dark" type="submit" style="margin-top:10px;">Create</button>
+            <p style="margin:20px;">Or</p>
+            <p style="margin-top:25px;">Already have a pin? <a href="/em_pin_login">Enter pin</a></p>
+
+          </form>
+        </main>
+      </div>
+    </div>
+  </div>
+
+
+
+<%- include('partials/footer') %>

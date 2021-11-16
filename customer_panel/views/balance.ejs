@@ -1,0 +1,50 @@
+<%- include('partials/header') %>
+
+<div class="be">
+  <% if(account.length === 0){ %>
+  <div class="no-account">
+    <h1>Oops!! You are not having any accounts yet!..<i class="fas fa-exclamation-circle"></i></h1>
+    <h2>Create new account <i class="fas fa-grin-beam"> </i> <i class="fas fa-hand-point-down"></i>...</h2>
+    <a class="btn btn-lg btn-success" style="margin:20px 0 0 10px" href="/create_account" role="button">Create account</a>
+  </div>
+  <%  }else{ %>
+  <%  if(account.status === "pending"){ %>
+  <div class="no-account">
+    <h1>You are account is waiting for approval!..<i class="fas fa-exclamation-circle"></i></h1>
+    <h2>Please wait for approval from Manager.. </h2>
+    <h3>You will get your account after got approval from manager.. <i class="fas fa-grin-beam"></i></h3>
+  </div>
+  <% }else if(account.status === "rejected"){ %>
+    <div class="no-account">
+      <h1>You are account is rejected!..<i class="fas fa-exclamation-circle"></i></h1>
+      <h2>Please Try to fill the form again!.. with valid details</h2>
+    </div>
+  <%}else{%>
+  <form class="ba-acc" action="/delete" method="post">
+    <h1  style="font-family: serif; margin:20px 30px 20px 50px; ; text-decoration: underline;">Balance Enquiry</h1>
+    <section>
+      <div class="container-fluid">
+        <div class="container-ba">
+          <div class="row">
+            <div class="col-sm-8">
+              <div class="cardb card_red text-center">
+                <div class="title">
+                  <i class="fas fa-smile-beam" aria-hidden="true"></i>
+                  <h2>Account Holder : <%= account.firstName %><%= account.lastName %></h2>
+                  <h3>Balance : <%= account.balance %></h3>
+                </div>
+
+                <button type="submit" class="btn trash" name="btn" value="<%=account.firstName%>"><i class="fas fa-trash"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </form>
+  <%    }   %>
+
+
+  <%}%>
+
+<%- include('partials/footer') %>

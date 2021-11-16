@@ -1,0 +1,58 @@
+.operations{
+    background: white;
+    margin-left: 7%;
+    margin-top: 3% !important;
+    margin-top: 40px;
+    border: 4px solid #86f3ff;
+    border-radius: 15px;
+    padding: 0px !important;
+}
+.operations:hover{
+    box-shadow: 1px 1px 10px black;
+}
+.images{
+    width: 100%;
+    height: 147px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+.operations-name{
+    padding: 9px;
+}
+.item-ope{
+    font-size: 21px;
+    font-weight: 700;
+    
+}
+.item-con{
+    color: #746f6f;
+}
+.bankImage{
+    width: 150%;
+   height:557px;
+   
+}
+
+.imageDiv{
+    width: 78%;
+    height: 484px;
+    margin-top: 30px;
+    overflow-x: hidden;
+    margin-left: 50px;
+    overflow: hidden;
+}
+.c811{
+    position: absolute;
+    font-size: 38px;
+    font-weight: 700;
+    top: 95px;
+    right: 513px;
+    width: 216px;
+}
+.capture{
+    position: absolute;
+    top: 76px;
+    border: 2px solid black;
+    border-radius: 300px;
+    right: 10px;
+}

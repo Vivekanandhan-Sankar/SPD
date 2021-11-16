@@ -1,0 +1,23 @@
+{
+  "name": "spd_backedn",
+  "version": "1.0.0",
+  "description": "vivek",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:nodemon": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "author": "vivekanandhan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "https": "^1.0.0",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.14",
+    "uuid": "^8.3.2"
+  }
+}

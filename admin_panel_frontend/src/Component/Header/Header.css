@@ -1,0 +1,50 @@
+.nav{
+    
+}
+.nameBank{
+    margin-top: 6px;
+    font-weight: 800;
+    font-size: 21px;
+    margin-left: 5px;
+}
+.imageBank{
+    width: 60px;
+}
+.login{
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+    color: darkblue;
+    
+}
+.register{
+    float: right;
+    border: 1px solid darkblue;
+    color: darkblue;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.register:hover{
+    color: white;
+    font-weight: 700;
+    background-color: darkblue;
+}
+.login:hover{
+    font-weight: 700;
+    font-size: 18px;
+}
+.nameLogo{
+    margin-top: 5px !important;
+    border: 1px solid;
+    text-align: center;
+    display: inline-block;
+    background: antiquewhite;
+    border-radius: 40px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    width: 40px;
+}

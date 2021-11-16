@@ -1,0 +1,111 @@
+.reactTab {
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: darkblue;
+    border:none;
+    display: inline-block;
+    /* border: 1px solid transparent; */
+    /* border-bottom: none; */
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.react-tabs__tab--selected {
+    border-left: solid 2px #ce0505;
+    border-bottom: solid 3px #ce0505;
+    border-radius: 37px;
+    border-right: solid 2px #ce0505;
+    border-bottom: solid 3px #ce0505;
+}
+.single{
+    box-shadow: 2px 2px 5px;
+    border-radius: 9px;
+    padding: 13px;
+    margin-top: 10px !important;
+    margin-left: 50px;
+}
+.items{
+    display: inline-block;
+    width: 140px;
+}
+.items2{
+    text-transform: capitalize;
+}
+.status{
+    display: inline-block;
+    width: 140px;
+}
+.pending{
+    color: red;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.approved{
+    color:green;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.top-line{
+    border-top: 1px solid red;
+    margin-top: 20px;
+    padding: 0px;
+    padding-top: 8px !important;
+}
+.top-line2{
+    border-top: 1px solid green;
+    margin-top: 20px;
+    padding: 0px;
+    padding-top: 8px !important;
+}
+.heading{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: cursive;
+    color: darkblue;
+    text-transform: uppercase;
+}
+.approveButton{
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    padding: 3px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 600;
+    float: right;
+    margin-top: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.rejectButton{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    padding: 3px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    float: right;
+    padding-left: 8px;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 600;
+    margin-right: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+<%- include('partials/header') %>
+
+
+<div class="be">
+  <% if(account.length === 0){ %>
+  <div class="no-account">
+    <h1>Oops!! You are not applied for any loans yet!..<i class="fas fa-exclamation-circle"></i></h1>
+    <h2>Apply for loan <i class="fas fa-grin-beam"> </i> <i class="fas fa-hand-point-down"></i>...</h2>
+    <a class="btn btn-lg btn-success" style="margin:20px 0 0 10px" href="/applyloan" role="button">Apply loan</a>
+  </div>
+  <%  }else{ %>
+  <%  if(account.status === "pending"){ %>
+  <div class="no-account">
+    <h1>You are loan is waiting for approval!..<i class="fas fa-exclamation-circle"></i></h1>
+    <h2>Please wait for approval from Manager.. </h2>
+    <h3>You will get your loan after got approval from manager.. <i class="fas fa-grin-beam"></i></h3>
+  </div>
+  <% }else if(account.status === "rejected"){ %>
+    <div class="no-account">
+      <h1>You are application is rejected!..<i class="fas fa-exclamation-circle"></i></h1>
+      <h2>Please Try to apply again!.. </h2>
+    </div>
+  <%}else{%>
+    <div class="" style="text-align: center; margin-top: 50px;">
+      <h1>Hii <%= account.firstName %> <%= account.lastName %></h1>
+      <h2>You are loan is approved!.. <i class="fas fa-smile-beam"></i></h2>
+      <h3>You can collect it directly in bank</h3>
+      <a class="btn btn-lg btn-success" style="margin:20px 0 0 10px" href="/mainfront" role="button">Go to mainpage</a>
+    </div>
+
+ <%  }} %>
+
+  <%- include('partials/footer') %>

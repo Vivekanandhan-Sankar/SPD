@@ -1,0 +1,222 @@
+.home {
+  background-image: url("/css/bank.jpeg");
+  padding: 16.8%;
+  /* background-position:center; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.home-text {
+  text-align: center;
+}
+
+.overall {
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.front-text {
+  background-color: #FFF3E4;
+  color: #000;
+  font-size: 2.1rem;
+  font-family: serif;
+}
+
+.container {
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/diagonales-decalees.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.btn-home {
+  margin: 20px
+}
+
+.text-center {
+  margin: 10% 40%;
+}
+
+.form-floating {
+  margin-bottom: 10px;
+}
+
+.col-sm-4 {
+  margin-left: 50px;
+}
+
+.col-sm-3 {
+  margin-left: 80px;
+}
+
+.row {
+  padding-top: 50px;
+}
+
+.front-content {
+  padding-top: 30px;
+}
+
+.fa-google {
+  color: #FF3F00;
+  margin-right: 20px;
+}
+
+.navbar {
+  padding: 20px 10px 20px;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+.nav-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* .logout-navbar{
+  padding-left: 60%;
+} */
+#demo {
+  padding: 10px 480px 0 440px;
+}
+
+/* details */
+.details-navbar {
+  padding-left: 68%;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.fa-university {
+  font-size: 3rem;
+  color: #09009B;
+}
+
+.bae-acc{
+  margin-left: 450px;
+}
+
+
+/* account form */
+.account-form{
+  margin-left:250px;
+}
+
+/* balance */
+/* .ba-acc{
+
+} */
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300'); */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 10px 0;
+
+  /* margin-left: 400px; */
+
+}
+
+.cardb {
+  /* position: relative; */
+  /* min-width: 300px; */
+  /* height: auto; */
+  overflow: hidden;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  transition: .5s;
+}
+.card:hover {
+  transform:scale(1.1);
+}
+.card_red, .card_red .title .fa {
+  background: linear-gradient(-45deg, #ffec61, #f321d7);
+}
+.card_violet, .card_violet .title .fa  {
+  background: linear-gradient(-45deg, #f403d1, #64b5f6);
+}
+.card_three, .card_three .title .fa  {
+  background: linear-gradient(-45deg, #24ff72, #9a4eff);
+}
+
+.container-ba{
+  margin-left: 350px;
+}
+.cardb:before {
+  content: '';
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  /* width: 100%; */
+  /* height: 40%; */
+  background: rgba(255, 255, 255, .1);
+  z-index: 1;
+  transform: skewY(-5deg) scale(1.5);
+}
+
+.title .fas {
+  color: #fff;
+  font-size: 60px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+}
+.title h2 {
+  position: relative;
+  margin: 20px 0 20px 0;
+  padding: 0;
+  color: #fff;
+  font-size: 28px;
+  z-index: 2;
+}
+
+.cardb a {
+  display: block;
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  color: #262ff;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  margin: 20px auto 0;
+  line-height: 40px;
+  border-radius: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 5px 10px rgba(0,0,0, .1);
+}
+.cardb a:hover {
+
+}
+
+.trash{
+  margin-left: 560px;
+  background-color: #fff;
+}
+
+/* Acccount section */
+
+.no-account{
+  text-align: center;
+  margin-top: 120px;
+}
