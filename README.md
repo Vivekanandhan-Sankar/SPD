@@ -10,8 +10,8 @@ ADMIN PANEL
     In admin panel frontend, the index.js file will load first, then it will redirected to the router.js file. In router.js, the header reference for all the pages have been given,
 if we want to go to home page , then the header reference from the router.js will load that particular route and reach the destination page.
 The destination pages are 
-                        1. header.js - 
-                        2. home.js
+                        1. header.js - It will load in every page
+                        2. home.js - It will have alll the functionalities
                         3. page.js - In pages we have separate route for different functionalities
                         
     In admin panel backend, first the index.js file will load , it will connect to the maongoDB database, and connect the server.
@@ -31,4 +31,15 @@ CUSTOMER PANEL
                                4. atm approvals - atmfin.ejs
                                5. apply loan - applyloan.ejs
                                6. loan approvals - loan.ejs
+
+
+
+
+
+SOFTWARE REQUIREMENTS:
+          1. Visual Studio Code - for coding
+          2. Node               - for using node package manager and node.js functionaities
+          3. MongoDB or Robo3T  - for storing and view the data
+          4. Postman            - for testing the server 
+          5. Atom               - also code editor
  
